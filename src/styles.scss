@@ -1,0 +1,117 @@
+* {
+    box-sizing: border-box;
+}
+
+.main {
+    height: 100vh;
+    width: auto;
+    background: #e6e7ec;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.title {
+    font-size: 32px;
+    font-weight: 700;
+    margin-bottom: 80px;
+    color: #1b1b2b;
+    
+}
+
+.line {
+    height: 5px;
+    background-color: #5f61df;
+    width: 100px;
+    margin: 10px auto 0px auto;
+    
+}
+
+#container {
+    max-width: 600px;
+    background-color: #fbfdfc6c;
+    padding: 20px 30px;
+    box-shadow: 10px 10px 50px 5px #c7c0c6 ;
+    border-radius: 8px; 
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: auto;
+}
+
+.review {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    .image {
+        width: 150px;
+        height: 150px;
+        border-radius: 50%;
+        box-shadow: 5px -3px 10px 8px #c7c0c6 ;
+        margin-top: -75px;
+    }
+
+    .author {
+        font-size: 24px;
+        font-weight: 600;
+        font-style: italic;
+        margin: 10px auto;
+        color: #5f61df;
+    }
+
+    .text {
+        font-size: 18px;
+        line-height: 1.25;
+        text-align: center;
+        height: 230px;
+
+        @media(max-width: 800px) {
+            font-size: 16px;
+            line-height: 1;
+            height: 20px;
+        }
+
+        @media(max-width: 600px) {
+            font-size: 14px;
+        }
+    }
+}
+
+.buttons {
+    display: flex;
+    margin: 20px auto;
+}
+
+#button_right, #button_left {
+    border: none;
+}
+
+#button_random {
+    font-size: 18px;
+    margin: 0 25px;
+    border-radius: 30px;
+    border: solid 2px #5f61df;
+    padding-right: 10px;
+    padding-left: 10px;
+    color: #e6e7ec;
+    background-color: #5f61df;
+    cursor: pointer;
+
+    &_random:hover {
+        background-color: #fbfdfc6c;
+        color: #5f61df;
+        border: solid 2px #5f61df;
+    }
+}
+
+.button {
+    cursor: pointer;
+    width: 50px;
+    height: 50px;
+}

@@ -31,6 +31,7 @@
 
 #container {
     max-width: 600px;
+    margin: 0 50px;
     background-color: #fbfdfc6c;
     padding: 20px 30px;
     box-shadow: 10px 10px 50px 5px #c7c0c6 ;
@@ -61,7 +62,7 @@
         font-size: 24px;
         font-weight: 600;
         font-style: italic;
-        margin: 10px auto;
+        margin: 20px auto;
         color: #60a5fa;
     }
 
@@ -74,7 +75,7 @@
         @media(max-width: 800px) {
             font-size: 16px;
             line-height: 1;
-            height: 20px;
+            height: 200px;
         }
 
         @media(max-width: 600px) {
@@ -102,12 +103,11 @@
     color: #e6e7ec;
     background-color: #60a5fa;
     cursor: pointer;
-}
-
-#button_random:hover {
-    background-color: #fbfdfc6c;
-    color: #60a5fa;
-    border: solid 2px #60a5fa;
+    &:hover {
+        background-color: #fbfdfc6c;
+        color: #60a5fa;
+        border: solid 2px #60a5fa;
+    }
 }
 
 .button {

@@ -5,7 +5,11 @@
     "format": "yarn prettier --write ."
   },
   "devDependencies": {
+    "@parcel/transformer-sass": "^2.9.3",
     "parcel": "^2.9.3",
-    "prettier": "3.0.2"
+    "prettier": "^3.0.2"
+  },
+  "dependencies": {
+    "sass": "^1.66.1"
   }
 }

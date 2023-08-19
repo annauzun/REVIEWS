@@ -23,7 +23,7 @@
 
 .line {
     height: 5px;
-    background-color: #5f61df;
+    background-color: #60a5fa;
     width: 100px;
     margin: 10px auto 0px auto;
     
@@ -62,7 +62,7 @@
         font-weight: 600;
         font-style: italic;
         margin: 10px auto;
-        color: #5f61df;
+        color: #60a5fa;
     }
 
     .text {
@@ -96,18 +96,18 @@
     font-size: 18px;
     margin: 0 25px;
     border-radius: 30px;
-    border: solid 2px #5f61df;
+    border: solid 2px #60a5fa;
     padding-right: 10px;
     padding-left: 10px;
     color: #e6e7ec;
-    background-color: #5f61df;
+    background-color: #60a5fa;
     cursor: pointer;
+}
 
-    &_random:hover {
-        background-color: #fbfdfc6c;
-        color: #5f61df;
-        border: solid 2px #5f61df;
-    }
+#button_random:hover {
+    background-color: #fbfdfc6c;
+    color: #60a5fa;
+    border: solid 2px #60a5fa;
 }
 
 .button {
